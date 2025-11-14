@@ -24,7 +24,7 @@ func main() {
 	template := x509.Certificate{
 		SerialNumber: big.NewInt(1),
 		Subject: pkix.Name{
-			Organization:  []string{"PT. Mencari Cinta Sejati CA"},
+			Organization:  []string{"Core Root CA"},
 			Country:       []string{"ID"},
 			Province:      []string{"Jakarta"},
 			Locality:      []string{"Jakarta"},
