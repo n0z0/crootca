@@ -1,4 +1,4 @@
-# LAN RootCA
+# Corporate Root CA
 
 ```sh
 go build -ldflags "-s -w" -o ca.exe main.go
